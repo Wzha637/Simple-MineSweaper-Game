@@ -3,10 +3,11 @@
  height: 400px;
  display: flex;
  flex-wrap: wrap;
- background-color: rgb(76, 206, 76);
+ background-color: rgb(91, 227, 91);
  position: absolute;
  top: 10%;
  left: 30%;
+ border: 2px solid black;
 }
 
 .grid div {
@@ -16,6 +17,7 @@
  transition: all 0.4s;
  box-sizing: border-box;
  padding-top: 10px;
+ border: 1px solid rgb(229, 227, 227);
 }
 
 /* .bomb {
